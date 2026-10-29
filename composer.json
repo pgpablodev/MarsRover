@@ -1,0 +1,23 @@
+{
+    "name": "pablo/katas-codurance",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pablo\\KatasCodurance\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pgpablodev",
+            "email": "povarg.pablo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.3"
+    }
+}
